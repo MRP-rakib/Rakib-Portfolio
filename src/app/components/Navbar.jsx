@@ -38,7 +38,7 @@ function Navbar() {
                 <p className='text-Text dark:text-White text-[18px] font-semibold hidden md:block'>rakib260.hossain@gmail.com</p>
                 </div>
                 <div className='flex items-center gap-7.5 md:gap-10 lg:gap-15'>
-                <ul className='hidden lg:flex items-center lg:gap-10 xl:gap-15 text-Text dark:text-White capitalize md:text-[16px] lg:text-[18px] font-semibold'>
+                <ul className='hidden lg:flex items-center lg:gap-8 xl:gap-15 text-Text dark:text-White capitalize md:text-[16px] lg:text-[18px] font-semibold'>
                    {menus.map(menu=>(
                      <li key={menu.id}>
                      <Link href={menu.path}>{menu.menu}</Link>
