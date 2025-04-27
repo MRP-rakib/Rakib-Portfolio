@@ -16,7 +16,7 @@ function Skills() {
        
   },[])
   return (
-    <section id='skills' className='py-8 md:py-10 lg:py-15'>
+    <section id='skills' className='py-7 md:py-10 lg:py-15'>
       <div className='container'>
         <div className='flex flex-col gap-4 text-[12px] md:text-[14px] text-center lg:text-base dark:text-White text-Text max-w-[500px] mx-auto'>
           <h2 className='text-2xl text-Text2 md:text-3xl lg:text-4xl font-bold'>

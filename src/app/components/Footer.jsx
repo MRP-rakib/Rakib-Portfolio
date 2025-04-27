@@ -12,8 +12,8 @@ function Footer() {
         { id: 4, menu: "contact", path: '#contact' },
     ]
     return (
-        <footer className="bg-white dark:bg-dark">
-            <div className=" container flex flex-col items-center justify-center gap-5 p-4 md:py-8">
+        <footer className="bg-white dark:bg-dark py-7 md:py-10 lg:py-15">
+            <div className=" container flex flex-col items-center justify-center gap-5">
                 <Link href='/'>
                     <Image src='/images/Rakib.jpg' alt='Rakib' width={60} height={60} className='rounded-full border-2 border-primary cursor-pointer' />
                 </Link>

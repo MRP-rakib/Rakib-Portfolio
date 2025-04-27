@@ -51,7 +51,7 @@ function Services() {
     })
   },[])
   return (
-    <section id='services' className=' py-7 md:py-15 lg:py-24 bg-Section dark:bg-dark'>
+    <section id='services' className='py-7 md:py-10 lg:py-15 bg-Section dark:bg-black'>
       <div className='container'>
         <div className='flex flex-col gap-2 md:gap-3 lg:gap-4 text-[12px] text-center md:text-[14px] lg:text-base dark:text-White text-Text max-w-[500px] mx-auto'>
           <h2 className='text-2xl text-Text2 md:text-3xl lg:text-4xl font-bold'>My Quality Services</h2>

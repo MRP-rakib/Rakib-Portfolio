@@ -6,7 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 function Contact() {
   return (
-    <section id='contact' className='py-8 md:py-10 lg:py-15 bg-Section dark:bg-dark'>
+    <section id='contact' className='py-7 md:py-10 lg:py-15 bg-Section dark:bg-black'>
      <div className='container gap-10 lg:gap-24 items-center grid grid-cols-1 md:grid-cols-2'>
          <div className='p-4 lg:p-10 bg-white dark:bg-[#1e132a] rounded-3xl'>
           <div className='flex pb-3 flex-col gap-4 text-start max-w-[500px] mx-auto text-Text dark:text-white font-base'>

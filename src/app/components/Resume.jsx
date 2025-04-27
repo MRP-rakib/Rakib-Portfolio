@@ -2,7 +2,7 @@ import React from 'react'
 
 function Resume() {
   return (
-    <section id='resume' className='bg-Section dark:bg-dark py-8 md:py-10 lg:py-15'>
+    <section id='resume' className='bg-Section dark:bg-black py-7 md:py-10 lg:py-15'>
       <div className='container grid grid-cols-1 md:grid-cols-2 gap-5 text-2xl md:text-3xl lg:text-4xl font-bold text-Text2'>
         <div className=''>
           <h2>Experience</h2>
