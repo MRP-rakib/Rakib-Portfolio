@@ -24,7 +24,7 @@ function Footer() {
                         </li>
                     ))}
                 </ul>
-                <span className=" pt-7.5 text-[12px] text-Text dark:text-White">© 2023 Rakib All Rights Reserved.</span>
+                <span className=" pt-7.5 text-[12px] text-Text dark:text-White">© 2025 Rakib All Rights Reserved.</span>
             </div>
         </footer>
 
