@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Hero() {
     motion
     return (
-        <div className=' relative container py-5 md:py-10 lg:py-15 grid grid-cols-1 gap-10 lg:grid-cols-2'>
+        <div id='top' className=' relative container py-5 md:py-10 lg:py-15 grid grid-cols-1 gap-10 lg:grid-cols-2'>
             <span className='hidden md:block animate-bounce -z-10 absolute lg:top-[50%] md:top-[25%] md:left-[65%] lg:left-[46%] transform -translate-[50%]'>
                 <svg width="365" height="250" xmlns="http://www.w3.org/2000/svg">
                     <text className='dark:fill-dark fill-[#FBFAFE] start-2 stroke-[rgba(126,74,231,0.5)]' x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontSize="180" fontFamily="Arial, sans-serif" fontWeight="bold" fill="#000">
@@ -28,7 +28,7 @@ function Hero() {
                             D
                             <Typewriter words={['eveloper.']} loop={true} cursor cursorColor='_' typeSpeed={80} delaySpeed={1000} deleteSpeed={50} />
                         </span></h1>
-                    <p className='max-w-[400px] font-normal text-[14px] md:text-[16px] lg:text-[18px]'>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                    <p className='max-w-[400px] font-normal text-[14px] md:text-[16px] lg:text-[18px]'>"Frontend developer with expertise in React, Next.js, and building responsive, modern web interfaces focused on great user experience."</p>
                 </div>
                 <div className='flex items-center gap-3'>
                     <a href='/pdf/Resume.pdf' download>

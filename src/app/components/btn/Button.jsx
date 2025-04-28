@@ -3,7 +3,7 @@ import React from 'react'
 
 function Button({onClick,btnName,icon,className="bg-primary text-white"}) {
   return (
-    <button onClick={onClick} className={`flex items-center gap-2 cursor-pointer capitalize py-3 px-6 rounded-3xl  text-[14px] lg:text-[16px] font-semibold ${className}`}>
+    <button onClick={onClick} className={`flex items-center gap-2 cursor-pointer capitalize py-2 px-5 md:py-3 md:px-6 rounded-3xl  text-[14px] lg:text-[16px] font-semibold ${className}`}>
        
        <span>{btnName}</span> <span>{icon}</span>
        

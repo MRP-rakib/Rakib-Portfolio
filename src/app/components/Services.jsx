@@ -10,10 +10,10 @@ gsap.registerPlugin(ScrollTrigger)
 
 function Services() {
   const information = [
-    { no: '01', header: "Responsive Design", des: "Ensure your website looks great on any device,with layouts that adapt to different screen sizes seamlessly." },
-    { no: '02', header: "Ecommerce Website", des: "Ensure your website looks great on any device,with layouts that adapt to different screen sizes seamlessly." },
-    { no: '03', header: "Website Optimization", des: "Ensure your website looks great on any device,with layouts that adapt to different screen sizes seamlessly." },
-    { no: '04', header: "Website Maintenance", des: "Ensure your website looks great on any device,with layouts that adapt to different screen sizes seamlessly." },
+    { no: '01', header: "Responsive Design", des: "I create fully responsive websites that adapt seamlessly to all devices, ensuring the best user experience." },
+    { no: '02', header: "Ecommerce Website", des: "Building fast, secure, and responsive ecommerce websites to help businesses grow and reach more customers." },
+    { no: '03', header: "Website Redesign", des: "Transforming old websites with fresh, modern designs for better performance and enhanced user experience." },
+    { no: '04', header: "Website Maintenance", des: "Providing ongoing website maintenance to ensure smooth performance, security, and timely updates for optimal user experience." },
   ]
   const [hover, setHover] = useState(0)
   const [lastHover,setLastHover] = useState(null)
@@ -55,7 +55,7 @@ function Services() {
       <div className='container'>
         <div className='flex flex-col gap-2 md:gap-3 lg:gap-4 text-[12px] text-center md:text-[14px] lg:text-base dark:text-White text-Text max-w-[500px] mx-auto'>
           <h2 className='text-2xl text-Text2 md:text-3xl lg:text-4xl font-bold'>My Quality Services</h2>
-          <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+          <p>I provide high-quality frontend services, creating responsive, fast, and user-friendly websites with modern technologies.</p>
         </div>
         <div className='pt-8 lg:pt-10 divide-y-2 divide-white dark:divide-Text'>
           {information.map((info, index) => (

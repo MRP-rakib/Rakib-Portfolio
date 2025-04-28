@@ -22,7 +22,7 @@ function Skills() {
           <h2 className='text-2xl text-Text2 md:text-3xl lg:text-4xl font-bold'>
             My Skills
           </h2>
-          <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+          <p>Proficient in frontend development with a focus on modern technologies, ensuring seamless and responsive web experiences.</p>
         </div>
         <div className=' pt-10 grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
           {skills.map((skill,index)=>(

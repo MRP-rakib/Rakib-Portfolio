@@ -45,7 +45,7 @@ function Contact() {
                   <span className='flex items-center justify-center w-10 h-10 md:w-12 md:h-12 lg:w-15 lg:h-15 text-2xl md:text-3xl rounded-full  text-white bg-primary '><CiLocationOn /></span>
                   <div className='text-Text flex flex-col gap-2 font-semibold dark:text-white'>
                     <p className='md:text-[20px] lg:text-2xl'>Address</p>
-                    <p className='text-[12px] md:text-[14px] lg:text-[18px]'>Bangladesh, Dhaka</p>
+                    <p className='text-[12px] md:text-[14px] lg:text-[18px]'>Dhaka, Bangladesh</p>
                     </div>   
             </div>
             

@@ -4,9 +4,9 @@
 .container{
   @apply max-w-[1320px] mx-auto px-4
 }
-html{
+/* html{
   scroll-behavior: smooth;
-}
+} */
 body{
   font-family: "Inter", sans-serif;
 }
