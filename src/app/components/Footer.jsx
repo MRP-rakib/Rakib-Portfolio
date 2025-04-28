@@ -25,7 +25,7 @@ function Footer() {
                                 to={menu.path}
                                 smooth={true}
                                 duration={500}
-                                offset={-70}
+                                offset={-80}
                                 activeClass='underline underline-offset-4 decoration-primary'
                                 spy={true}
                                 className='cursor-pointer'
