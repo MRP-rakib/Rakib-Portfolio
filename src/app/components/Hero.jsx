@@ -31,7 +31,7 @@ function Hero() {
                     <p className='max-w-[400px] font-normal text-[14px] md:text-[16px] lg:text-[18px]'>"Frontend developer with expertise in React, Next.js, and building responsive, modern web interfaces focused on great user experience."</p>
                 </div>
                 <div className='flex items-center gap-3'>
-                    <a href='/pdf/Resume.pdf' download>
+                    <a href='/pdf/Rakib.pdf' download>
                         <Button className=' dark:bg-dark bg-white border border-primary text-Text2  hover:text-White hover:bg-primary transition-all duration-300' btnName='download cV' icon={<GoDownload />} />
                     </a>
                     <a href="https://github.com/MRP-rakib" target='_blank' className=' flex items-center justify-center dark:bg-dark text-Text2 hover:bg-primary hover:text-White text-[20px] transition-colors duration-800 ease-in-out border w-10 h-10 rounded-full border-primary'>
