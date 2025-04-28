@@ -63,7 +63,7 @@ function Navbar() {
                      to={menu.path}
                      smooth={true}
                      duration={500}
-                     offset={-80}
+                     offset={-85}
                      activeClass='underline underline-offset-4 decoration-primary'
                       spy={true}
                      className='cursor-pointer'
