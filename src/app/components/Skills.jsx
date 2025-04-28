@@ -38,7 +38,7 @@ function Skills() {
 function Skill({skill}) {
   
   return (
-    <div className='flex flex-col items-center gap-4'>
+    <div className='cursor-pointer flex flex-col items-center gap-4'>
       <div className='flex group flex-col gap-5 items-center justify-center h-[150px] md:h-[200px] w-full text-white bg-Section hover:bg-primary transition-all duration-300 dark:bg-[#1e132a] rounded-3xl'>
        <Image 
        src={skill.image} 

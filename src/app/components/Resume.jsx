@@ -6,7 +6,7 @@ function Resume() {
       <div className='container grid grid-cols-1 md:grid-cols-2 gap-5 text-2xl md:text-3xl lg:text-4xl font-bold text-Text2'>
         <div className=''>
           <h2>Experience</h2>
-          <div className='flex flex-col transition-all duration-300 gap-2 group hover:bg-primary hover:text-white text-Text2  bg-white dark:bg-[#1e132a] rounded-[16px] text-[18px] md:text-[20px] lg:text-2xl mt-5 md:mt-10  p-4'>
+          <div className='cursor-pointer flex flex-col transition-all duration-300 gap-2 group hover:bg-primary hover:text-white text-Text2  bg-white dark:bg-[#1e132a] rounded-[16px] text-[18px] md:text-[20px] lg:text-2xl mt-5 md:mt-10  p-4'>
             <h4 className=''>2024-2025</h4>
             <div>
             <h3 className='text-black transition-all duration-300 group-hover:text-white dark:text-white'>Front-End Development with React.js - Training</h3>
@@ -22,14 +22,14 @@ function Resume() {
         </div>
         <div>
           <h2>Education</h2>
-          <div className='flex flex-col transition-all duration-300 gap-2g group hover:bg-primary hover:text-white text-Text2  bg-white dark:bg-[#1e132a] rounded-[16px] text-[18px] md:text-[20px] lg:text-2xl mt-5 md:mt-10  p-4'>
+          <div className='cursor-pointer flex flex-col transition-all duration-300 gap-2g group hover:bg-primary hover:text-white text-Text2  bg-white dark:bg-[#1e132a] rounded-[16px] text-[18px] md:text-[20px] lg:text-2xl mt-5 md:mt-10  p-4'>
             <h4 className=''>2021-Present</h4>
             <div>
             <h3 className='text-black transition-all duration-300 group-hover:text-white dark:text-white'>Diploma in Computer Science & Technology</h3>
             <p className='font-semibold text-[14px] text-White' >Daffodil Technical Institute | <span className='text-[12px]'>Currently in 7th Semester</span></p>
             </div>
           </div>
-          <div className='flex flex-col transition-all duration-300 gap-2g group hover:bg-primary hover:text-white text-Text2  bg-white dark:bg-[#1e132a] rounded-[16px] text-[18px] md:text-[20px] lg:text-2xl mt-5 md:mt-10  p-4'>
+          <div className='cursor-pointer flex flex-col transition-all duration-300 gap-2g group hover:bg-primary hover:text-white text-Text2  bg-white dark:bg-[#1e132a] rounded-[16px] text-[18px] md:text-[20px] lg:text-2xl mt-5 md:mt-10  p-4'>
             <h4 className=''>2018-2019</h4>
             <div>
             <h3 className='text-black transition-all duration-300 group-hover:text-white dark:text-white'>Sristy Central School and Collage(SSC)</h3>

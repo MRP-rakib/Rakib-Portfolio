@@ -22,7 +22,7 @@ function Contact() {
              name="message" 
              id="message" placeholder='Messages' ></textarea>
              <div>
-             <Button btnName='send message'/>
+             <Button type='submit' btnName='send message'/>
              </div>
           </form>
          </div>
