@@ -1,10 +1,30 @@
-import React from 'react'
+'use client'
+import React, { useRef } from 'react'
 import Button from './btn/Button'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
+import emailjs from '@emailjs/browser'
 
 function Contact() {
+  const form = useRef()
+  const sendEmail=(e)=>{
+e.preventDefault()
+  emailjs.
+  sendForm("service_j3hp7rk",'template_blsyuw5', form.current,{
+    publicKey:"S5TyII2oSbnmzlKdq"
+  })
+  .then(
+    ()=>{
+      alert('Done!')
+      form.current.reset()
+    },(error)=>{
+      
+      alert('Failed to send: ' + error.text);
+    }
+  )
+ }
+
   return (
     <section id='contact' className='py-7 md:py-10 lg:py-15 bg-Section dark:bg-black'>
      <div className='container gap-10 lg:gap-24 items-center grid grid-cols-1 md:grid-cols-2'>
@@ -13,10 +33,10 @@ function Contact() {
           <h2 className='text-Text2 font-bold text-2xl md:text-3xl lg:text-4xl'>Let’s work together!</h2>
           <p className='text-[12px] md:text-[14px] lg:text-base'>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
           </div>
-          <form className='flex flex-col gap-4'>
-            <Input type='text' placeholder='Enter your name'/>
-            <Input type='email' placeholder='Enter your email'/>
-            <Input type='number' placeholder='Enter your number'/>
+          <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-4'>
+            <Input type='text' name='name'  placeholder='Enter your name'/>
+            <Input type='email'  name='email' placeholder='Enter your email'/>
+            <Input type='tel' name='number'  placeholder='Enter your number'/>
             <textarea
              className=' h-[100px] md:h-[150px] lg:h-[200px] capitalize w-full py-3 px-2 rounded dark:bg-black bg-Section dark:text-white text-Text outline-none' 
              name="message" 
@@ -55,10 +75,10 @@ function Contact() {
     </section>
   )
 }
-function Input({type,placeholder}){
+function Input({type,placeholder,name}){
   return(
     <div>
-      <input className=' text-[12px] md:text-[14px] lg:text-base w-full py-3 px-2 rounded dark:bg-black bg-Section dark:text-white text-Text outline-none' type={type} placeholder={placeholder} />
+      <input className=' text-[12px] md:text-[14px] lg:text-base w-full py-3 px-2 rounded dark:bg-black bg-Section dark:text-white text-Text outline-none' name={name} type={type} placeholder={placeholder} />
     </div>
   )
 }
