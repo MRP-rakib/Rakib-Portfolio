@@ -4,7 +4,7 @@ import { IoMoonOutline } from "react-icons/io5";
 import { IoSunnyOutline } from "react-icons/io5";
 
 function DarkBtn() {
-    const [dark, setDark] = useState("dark")
+    const [dark, setDark] = useState("light")
     const handelDarkMode = () => {
         setDark(prev => prev === 'dark' ? "light" : "dark")
     }

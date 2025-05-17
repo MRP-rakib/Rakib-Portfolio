@@ -29,7 +29,7 @@ function Navbar() {
             <div className='container flex items-center justify-between'>
                 <div className='flex items-center gap-4'>
                 <ScrollLink to='top' smooth={true} duration={500} offset={-50}>
-                <Image src='/images/Rakib.jpg' alt='Rakib' width={48} height={48} className='rounded-full border-2 border-primary cursor-pointer' />
+                <Image src='/images/Rakib.jpg' alt='Rakib' width={48} height={48} className='h-8 w-8 rounded-full border-2 border-primary cursor-pointer object-fill' />
                 </ScrollLink>
                 <p className='text-Text dark:text-White text-[18px] font-semibold hidden md:block'>rakib260.hossain@gmail.com</p>
                 </div>

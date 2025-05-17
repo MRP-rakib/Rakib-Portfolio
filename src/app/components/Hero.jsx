@@ -46,8 +46,8 @@ function Hero() {
             </div>
             <div className='flex cursor-pointer justify-center'>
                 <div
-                    className='overflow-hidden w-[250px] h-[300px] md:h-[500px] md:w-[450px] lg:h-[450px] lg:w-[400px] border-4 border-Text hover:border-Text2 rounded-3xl rotate-8 hover:rotate-0 transition-all duration-500'>
-                    <Image src='/images/Rakib.jpg' alt='Rakib' width={1200} height={800} className='w-full h-full' />
+                    className=' bg-Section  overflow-hidden w-[250px] h-[320px] lg:h-[500px] lg:w-[400px] border-4 border-Text hover:border-Text2 rounded-3xl rotate-8 hover:rotate-0 transition-all duration-500'>
+                    <Image src='/images/rakib1.png' alt='Rakib' width={1200} height={800} className='w-full h-full object-cover' />
                 </div>
             </div>
         </div>
